@@ -30,4 +30,3 @@ public class SBN {
         this.kuotaNasional = kuotaNasional;
     }
 }
-
