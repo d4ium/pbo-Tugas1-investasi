@@ -1,3 +1,5 @@
+package model;
+
 public class SBN {
     private String nama;
     private double bunga;
