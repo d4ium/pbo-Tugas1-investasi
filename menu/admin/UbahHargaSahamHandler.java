@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class UbahHargaSahamHandler {
     public static void jalankan(Scanner scanner) {
         if (Database.daftarSaham.isEmpty()) {
-            System.out.println("⚠️ Tidak ada saham yang tersedia.");
+            System.out.println("Tidak ada saham yang tersedia.");
             return;
         }
 

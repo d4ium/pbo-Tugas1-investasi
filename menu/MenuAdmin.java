@@ -11,12 +11,15 @@ public class MenuAdmin {
     public static void tampilkan(Scanner scanner) {
         int pilihan;
         do {
-            System.out.println("\n===== MENU ADMIN =====");
-            System.out.println("1. Tambah Saham");
-            System.out.println("2. Ubah Harga Saham");
-            System.out.println("3. Tambah SBN");
-            System.out.println("4. Kembali");
+            System.out.println("\n======= MENU ADMIN ======");
+            System.out.println("[   1. Tambah Saham     ]");
+            System.out.println("[   2. Ubah Harga Saham ]");
+            System.out.println("[   3. Tambah SBN       ]");
+            System.out.println("[   4. Logout           ]");
+            System.out.println("[=======================]");
+            System.out.println(" ");
             System.out.print("Pilih menu: ");
+            System.out.println(" ");
             pilihan = scanner.nextInt();
             scanner.nextLine();
 

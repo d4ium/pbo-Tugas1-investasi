@@ -22,6 +22,6 @@ public class TambahSBNHandler {
 
         SBN sbn = new SBN(nama, bunga, jangkaWaktu, jatuhTempo, kuota);
         Database.daftarSBN.add(sbn);
-        System.out.println("✅ SBN berhasil ditambahkan!");
+        System.out.println("SBN berhasil ditambahkan!");
     }
 }
