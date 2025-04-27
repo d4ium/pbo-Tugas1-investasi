@@ -1,20 +1,21 @@
 package menu;
 
+import utility.InputValidation;
 import java.util.Scanner;
 
 public class MenuUtama {
     public static void tampilkan() {
         Scanner scanner = new Scanner(System.in);
+        InputValidation inputValidation = new InputValidation(scanner);
+
         while (true) {
             System.out.println("[==== MENU UTAMA ====]");
             System.out.println("[     1. Login       ]");
             System.out.println("[     2. Keluar      ]");
             System.out.println("[====================]");
             System.out.println(" ");
-            System.out.print("Pilih menu: ");
+            int pilihan = inputValidation.getValidIntInput("Pilih menu: ");
             System.out.println(" ");
-            int pilihan = scanner.nextInt();
-            scanner.nextLine();
 
             switch (pilihan) {
                 case 1:
@@ -25,6 +26,7 @@ public class MenuUtama {
                     return;
                 default:
                     System.out.println("Pilihan tidak valid!");
+                    System.out.println(" ");
             }
         }
     }

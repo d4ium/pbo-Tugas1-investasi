@@ -1,27 +1,24 @@
 package menu;
 
-import menu.admin.TambahSahamHandler;
-import menu.admin.UbahHargaSahamHandler;
-import menu.admin.TambahSBNHandler;
-
+import menu.admin.*;
+import utility.InputValidation;
 import java.util.Scanner;
 
 public class MenuAdmin {
 
     public static void tampilkan(Scanner scanner) {
+        InputValidation inputValidation = new InputValidation(scanner);
         int pilihan;
         do {
-            System.out.println("\n======= MENU ADMIN ======");
+            System.out.println("\n[====== MENU ADMIN =====]");
             System.out.println("[   1. Tambah Saham     ]");
             System.out.println("[   2. Ubah Harga Saham ]");
             System.out.println("[   3. Tambah SBN       ]");
             System.out.println("[   4. Logout           ]");
             System.out.println("[=======================]");
             System.out.println(" ");
-            System.out.print("Pilih menu: ");
+            pilihan = inputValidation.getValidIntInput("Pilih menu: ");
             System.out.println(" ");
-            pilihan = scanner.nextInt();
-            scanner.nextLine();
 
             switch (pilihan) {
                 case 1:
