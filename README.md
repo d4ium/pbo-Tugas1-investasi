@@ -71,6 +71,18 @@ Entry point aplikasi
 
 # Diagram UML
 
+<img width="743" alt="Screen Shot 2025-04-29 at 21 22 17" src="https://github.com/user-attachments/assets/fdd2e877-00c7-4937-8ace-c7bad71c7bbe" />
+
+Diagram UML berikut menunjukkan struktur class utama dari program investasi saham dan SBN berbasis Java. Program menerapkan prinsip OOP melalui pewarisan, asosiasi, dan enkapsulasi.
+
+
+- User adalah superclass abstrak yang diturunkan oleh Admin dan Customer.
+- Admin memiliki akses untuk menambah dan mengubah data saham dan SBN.
+- Customer menyimpan portofolio saham dan SBN dalam bentuk Map.
+- Saham dan SBN merupakan objek investasi yang dapat dikelola oleh admin dan dibeli customer.
+- Database berfungsi sebagai penyimpanan data runtime untuk seluruh entitas penting.
+- InputValidation menangani input numerik agar program aman dari kesalahan user.
+
 --- 
 
 # Studi Kasus & Screenshot
