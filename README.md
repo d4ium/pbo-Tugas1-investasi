@@ -54,25 +54,25 @@ Pass    : user123
 Berikut ialah Struktur Program dari proyek yang telah dibuat 
 
 **model/**
-Class utama seperti User, Saham, SBN
+- Class utama seperti User, Saham, SBN
 
 **data/**
-Penyimpanan data memori (Database)
+- Penyimpanan data memori (Database)
 
 **menu/** 
-Navigasi antarmuka dan logika menu
+- Navigasi antarmuka dan logika menu
 
 **menu/admin/**
-Handler fitur admin
+- Handler fitur admin
 
 **menu/customer/**
-Handler fitur customer
+- Handler fitur customer
 
 **utility/**
-Validasi input (angka)
+- Validasi input (angka)
 
 **Main.java**
-Entry point aplikasi
+- Entry point aplikasi
 
 # Diagram UML
 
