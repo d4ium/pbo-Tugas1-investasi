@@ -8,6 +8,7 @@ Dosen Pengampu: **Wayan Oger Vihikan, S.T.I, M.I.T.**
 ## Nama / Kelompok
 
 Putu Davrian Rockaditha (@d4ium)  [2405551097]
+
 I Wayan Wirya Adi Ajnyana (@IWAYANWIRAYAADIAJNYANA) [2405551165]
 
 ## PBO Investasi
@@ -54,15 +55,19 @@ Berikut ialah Struktur Program dari proyek yang telah dibuat
 
 **model/**
 Class utama seperti User, Saham, SBN
+
 **data/**
 Penyimpanan data memori (Database)
+
 **menu/** 
 Navigasi antarmuka dan logika menu
+
 **menu/admin/**
 Handler fitur admin
 
 **menu/customer/**
 Handler fitur customer
+
 **utility/**
 Validasi input (angka)
 
