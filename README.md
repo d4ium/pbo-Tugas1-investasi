@@ -40,7 +40,7 @@ Aplikasi ini memungkinkan pengguna untuk melakukan simulasi investasi sederhana 
 1. Pastikan Java sudah terinstall.
 2. Clone repository ini:
    ```bash
-   git clone https://github.com/username/pbo-Tugas1-investasi.git
+   git clone https://github.com/d4ium/pbo-Tugas1-investasi.git
 
 ---
 
